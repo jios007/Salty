@@ -4,17 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Salty Coin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 0;
-      background: #0d1117;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(160deg, #0d1117, #1a1f2e);
       color: #f0f6fc;
       text-align: center;
     }
     header {
-      padding: 60px 20px;
+      padding: 80px 20px 40px;
+    }
+    header img {
+      width: 120px;
+      margin-bottom: 20px;
     }
     h1 {
       font-size: 3em;
@@ -22,23 +26,111 @@
     }
     p {
       font-size: 1.2em;
-      color: #8b949e;
+      color: #c9d1d9;
+      max-width: 700px;
+      margin: auto;
+    }
+    nav {
+      margin: 30px 0;
+    }
+    nav a {
+      color: #58a6ff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 50px 20px;
+      border-top: 1px solid #30363d;
+    }
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: auto;
+    }
+    ul li {
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+    .cta a {
+      background: #238636;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+      font-weight: bold;
+      margin-top: 20px;
+      transition: background 0.3s ease;
+    }
+    .cta a:hover {
+      background: #2ea043;
     }
     footer {
-      margin-top: 50px;
+      padding: 30px;
       font-size: 0.9em;
       color: #6e7681;
     }
   </style>
 </head>
 <body>
+
   <header>
+    <!-- Optional logo image -->
+    <!-- <img src="salty-logo.png" alt="Salty Coin Logo"> -->
     <h1>Salty Coin</h1>
     <p>The deflationary meme token of the salty revolution.</p>
     <p>Fair launch. No presale. 100% community-driven.</p>
   </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#community">Community</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Salty</h2>
+    <p>Salty Coin was born from the saltiness of traders everywhere. It’s more than a meme — it's a movement. With zero presale and fully locked liquidity, we’re setting the gold standard for meme coins. All sizzle, no rug.</p>
+  </section>
+
+  <section id="tokenomics">
+    <h2>Tokenomics</h2>
+    <ul>
+      <li>Total Supply: 1,000,000,000 $SALTY</li>
+      <li>🔥 Burned at Launch: 20%</li>
+      <li>💧 Liquidity Pool: 60%</li>
+      <li>📣 Marketing & Development: 10%</li>
+      <li>🎁 Community Airdrops: 10%</li>
+    </ul>
+  </section>
+
+  <section id="roadmap">
+    <h2>Roadmap</h2>
+    <ul>
+      <li>✅ Q2 2025: Token Deployment</li>
+      <li>✅ Q2 2025: Website & Whitepaper</li>
+      <li>🔜 Q3 2025: CoinMarketCap + CoinGecko Listings</li>
+      <li>🔜 Q3 2025: Meme Contest + 10k Holders</li>
+      <li>🔜 Q4 2025: DAO Governance + CEX Listing</li>
+    </ul>
+  </section>
+
+  <section id="community" class="cta">
+    <h2>Join the Movement</h2>
+    <p>Salty Coin is powered by you. No VCs. No whales. Just a salty army of degens. Ready to ride?</p>
+    <a href="https://raydium.io/" target="_blank">Buy $SALTY Now</a>
+  </section>
+
   <footer>
     <p>© 2025 Salty Coin. Stay salty.</p>
   </footer>
+
 </body>
 </html>
